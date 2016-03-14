@@ -1,0 +1,199 @@
+@import "http://webfonts.ru/import/alexander.css";
+@import "http://webfonts.ru/import/beermoney.css";
+/*Style of header*/
+.logo {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.top_nav {
+	background-color: #4D4D4D;
+	height: 30px;
+}
+.top_nav a {
+	color: white;
+	border-right: solid 1px white;
+	font-family: cursive;
+	font-size: 19px;
+	padding-left: 7px;
+	padding-right: 3px;
+}
+#trigger {
+	color: red;
+}
+#trigger:hover {
+	color: yellow;
+	font-size: 21px;
+	font-family: aleksander;
+}
+.top_nav a:nth-child(2) {
+	padding-left: 20px;
+}
+.top_nav a:nth-child(even):hover {
+	opacity: 0.4;
+	color: #FFE4E1;
+}
+.top_nav a:nth-child(odd):hover {
+	opacity: 0.9;
+	color: #FFE4E1;
+}
+.find {
+	border-radius: 8px;
+}
+.appear {
+	background-color: #999999;
+	padding-left: 43px;
+	height: 30px;
+	display: none;
+}
+.appear a {
+	color: white;
+	font-size: 20px;
+	font-family: Mistral;
+	padding-right: 10px;
+}
+.appear a:hover {
+	font-weight: bold;
+}
+.appear a:first-child:active {
+	color: yellow;
+}
+.search {
+	float: right;
+}
+a {
+	text-decoration: none;
+}
+/*Style of main contant*/
+.main_news {
+	float: left;
+	width: 35%;
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+.top_news {
+	position: relative;
+	right: 40px; 
+}
+.direct_speech hr {
+	background-color: yellow;
+	height: 3px;
+}
+.direct_speech img {
+	float: left;
+	margin-right: 5px;
+}
+.speech a {
+	font-size: 18px;
+	font-weight: bold;
+}
+.last_news {
+	width: 27%;
+	float: left;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+.last_news hr {
+	background-color: red;
+	height: 2px;
+}
+.news_line {
+	margin: 10px 10px 40px 20px;
+	text-align: center;
+}
+.news_line p {
+	float: left;
+	margin-right: 20px;
+}
+.news_line a {
+	opacity: 0.7;
+}
+.news_line a:hover {
+	opacity: 1;
+}
+aside {
+	float: right;
+	width: 31%;
+}
+.photo {
+	border: groove 2px yellow;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.photo img {
+	clear: both;
+	width: 370px;
+}
+.photo a {
+	text-align: center;
+}
+.video {
+	border: dashed 1px black;
+}
+.topics>hr {
+	width: 70px;
+	height: 2px;
+	background-color: yellow;
+	margin-right: 500px;
+	margin-top: 30px;
+}
+.own_write {
+	margin-bottom: 20px;
+}
+.own_write img {
+	margin-right: 10px;
+	float: left;
+}
+.own_write a {
+	font-size: 22px;
+	color: black;
+}
+h5 {
+	color: navy;
+}
+.main_picture img {
+	width: 450px;
+	padding-left: 0;
+}
+button {
+	font-family: Beer money, cursive;
+}
+a {
+	color: #545454;
+}
+/*Style for bottom*/
+footer {
+	clear: left;
+	margin-bottom: 0px;
+}
+.bottom_nav {
+	float: left;
+
+}
+.bottom_nav a {
+	border-right: solid 2px grey;
+	color: grey;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: cursive;
+}
+i {
+	color: black;
+}
+i:hover {
+	color: green;
+}
+.up {
+	float: right;
+}
+.copyright {
+	background-color: #333333;
+	height: 100px;
+	margin-top: 50px;
+}
+.copyright p {
+	color: white;
+	padding: 20px 20px 20px 20px;
+	font-family: 'Alexander', Arial;
+}
+
+
